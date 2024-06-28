@@ -1,4 +1,3 @@
-import com.sun.xml.internal.ws.spi.db.DatabindingException;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
@@ -74,4 +73,30 @@ public class AprenderCucumber {
 
 
     }
+
+    @Dado("^que o ticket( especial)? é (A.\\d{3})$")
+    public void queOTicketÉAF345(String tipo, String arg1) {
+
+    }
+    @Dado("^que o valor da passagem é R\\$ (\\d+),(\\d+)$")
+    public void queOValorDaPassagemÉR$(int arg1, int arg2) {
+
+    }
+    @Dado("^que o nome do passageiro é \"(.{5,20})\"$")
+    public void queONomeDoPassageiroÉ(String string) {
+
+    }
+    @Dado("^que o telefone do passageiro é (9\\d{3}-\\d{4})$")
+    public void queOTelefoneDoPassageiroÉ(String telefone) {
+
+    }
+    @Quando("criar os steps")
+    public void criarOsSteps() {
+
+    }
+    @Então("o teste vai funcionar")
+    public void oTesteVaiFuncionar() {
+
+    }
+
 }
